@@ -27,7 +27,7 @@ public class EncoderService {
     /**
      * Кодируем одну последовательность.
      *
-     * @param sequence последовательность (AtomicLong)
+     * @param sequence последовательность (Long)
      * @return hash
      */
     private String encodeNumber(Long sequence) {
