@@ -23,7 +23,18 @@ dependencies {
     implementation("org.springframework.boot:spring-boot-starter-validation")
     implementation("org.springframework.cloud:spring-cloud-starter-openfeign:4.0.2")
     annotationProcessor("org.springframework.boot:spring-boot-configuration-processor")
+    implementation("org.springframework.boot:spring-boot-starter-cache:3.3.5")
 
+    /**
+     * Thymeleaf
+     */
+    implementation("org.springframework.boot:spring-boot-starter-thymeleaf")
+
+    /**
+     * Spring Security
+     */
+    implementation("org.springframework.security:spring-security-core:6.4.1")
+    
     /**
      * Database
      */
